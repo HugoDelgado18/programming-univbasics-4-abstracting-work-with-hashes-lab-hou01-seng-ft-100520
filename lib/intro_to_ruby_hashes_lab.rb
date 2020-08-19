@@ -10,10 +10,10 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  if hash[key] == "hello"
+  if hash[key]
     return hash["hello"] += 1
   else
-    return hash[key] = 6
+    return hash[key] = 1
   end
 
   # given a hash an a key as parameters, return an updated hash
