@@ -11,9 +11,9 @@ end
 
 def update_counting_hash(hash, key)
   if hash[key] == "hello"
-    return hash[key] += 1
+    return hash["hello"] += 1
   else
-    return hash["hello"] = 1
+    return hash[key] = 1
   end
 
   # given a hash an a key as parameters, return an updated hash
